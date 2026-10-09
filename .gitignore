@@ -1,0 +1,19 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local dependency bundle and API cache
+work/pydeps/
+work/free_factor_pilot/prices/
+work/free_factor_pilot/shares/
+work/free_factor_pilot/universe.csv
+
+# Large reproducible outputs
+outputs/free_factor_pilot/因子暴露与未来收益.csv
+outputs/free_factor_pilot/IC序列.csv
+
+# Earlier scratch datasets
+work/barra_daily_history_cache.csv
+outputs/a_share_daily_sample_2025-10_to_2026-09.csv
+outputs/barra_cne5_reproducible_factor_sample.csv
